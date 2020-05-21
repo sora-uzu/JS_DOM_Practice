@@ -1,11 +1,8 @@
 'use strict';
 
-const score = 30;
-
-if (score >= 80) {
-  console.log('Great');
-} else if (score >= 60) {
-  console.log('Good.');
-} else {
-  console.log('Ok...');
+function showAd(message = 'Ad') {
+  console.log(`${message}`);
 }
+
+showAd('Header Ad');
+showAd();
