@@ -1,11 +1,11 @@
 'use strict';
 
-{
-  function update() {
-    // document.querySelector('h1').textContent = 'Changed!';
-    // document.querySelector('#target').textContent = 'Changed!';
-    document.getElementById('target').textContent = 'Changed!';
-  }
+const score = 30;
 
-  setTimeout(update, 1000);
+if (score >= 80) {
+  console.log('Great');
+} else if (score >= 60) {
+  console.log('Good.');
+} else {
+  console.log('Ok...');
 }
