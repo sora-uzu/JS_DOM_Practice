@@ -1,8 +1,19 @@
 'use strict';
 
-function showAd(message = 'Ad') {
-  console.log(`${message}`);
-}
+{
+  const point = {
+    x: 100,
+    y: 180,
+  };
 
-showAd('Header Ad');
-showAd();
+  // const keys = Object.keys(point);
+  // keys.forEach(key => {
+  //   console.log(`Key: ${key} Value: ${point[key]}`);
+  // });
+  const points = [
+    {x: 30, y: 20},
+    {x: 10, y: 50},
+    {x: 40, y: 50},
+  ];
+  console.log(points[1].y);
+}
